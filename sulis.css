@@ -1,36 +1,63 @@
-.kerek
-{
-    border-radius: 30px;
+body{
+    background-color:#f1fbff;
+    color:#40409b;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
-.minuszmargo
-{
-    margin-top: -60px;
+#zold_ragyogas{
+    -webkit-filter:drop-shadow(0px 0px 15px green);
+    filter:drop-shadow(0px 0px 15px green);
 }
 
-.keretes
-{
-    border-radius: 15px;
-    margin-top: 30px;
-	width: 100%;
+.bal-oszlop{
+    text-align:center;
+    font-style:italic;
+    padding:20px;
+    background-color:#99cde2;
+    font-size:20px;
 }
 
-.icon
-{
-    height: 150px;
-    display: block;
-    margin: 0 auto;
+.kerek{
+    border-radius:30px;
 }
 
-#narancs_ragyogas
-{
--webkit-filter: drop-shadow(0px 0px 15px orange);
-filter: drop-shadow(0px 0px 15px orange);
+.minuszmargo{
+    width:80%;
+    background-color:white;
+    position:relative;
+    margin:-60px auto 0 auto;
+    color:#40409b;
+    font-style:italic;
+    font-size:20px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    padding:10px;
 }
 
-
-.kozepre
-{
-    text-align: center;
+.icon{
+    height:150px;
+    display:block;
+    margin:0 auto;
 }
 
+#narancs_ragyogas{
+    -webkit-filter:drop-shadow(0px 0px 15px orange);
+    filter:drop-shadow(0px 0px 15px orange);
+}
+
+.kozepre{
+    text-align:center;
+}
+
+.nyil{
+    height:30px;
+    margin-right:10px;
+}
+
+.keretes{
+    border-radius:15px;
+    margin-top:30px;
+    width:100%;
+    border:5px solid white;
+}
